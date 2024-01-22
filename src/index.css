@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-pattern{
+    background-image: url('../public/Background-pattern.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text{
+    line-height: 72px; /* 112.5% */
+    letter-spacing: -1.28px;
+}
