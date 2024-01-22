@@ -14,7 +14,21 @@ body{
     background-size: cover;
 }
 
+.people{
+    background: url('../public/images/people.png'), lightgray 50% / cover no-repeat;
+}
+
 .hero-text{
     line-height: 72px; /* 112.5% */
     letter-spacing: -1.28px;
+}
+
+.arrow{
+    width: 238.234px;
+    height: 200.324px;
+    /* transform: rotate(-154.745deg); */
+    position: absolute;
+    right: 70%;
+    left: 30%;
+    top: -190px;
 }
