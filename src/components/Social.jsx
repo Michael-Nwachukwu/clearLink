@@ -3,7 +3,7 @@ import React from 'react'
 const Social = () => {
   return (
     <>
-        <section className='py-[96px]'>
+        <section className='py-[96px] w-full px-[108px] 2xl:px-[160px]'>
             <div className="flex flex-col gap-[48px] items-start">
                 <p style={{ alignSelf: 'stretch' }} className='text-[20px] font-medium text-[#475467] text-center'>
                     Join 1,500+ companies already video conferencing the ClearLink way

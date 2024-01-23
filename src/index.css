@@ -32,3 +32,9 @@ body{
     left: 30%;
     top: -190px;
 }
+
+
+.action-img{
+    background-image: url('../public/images/Screen-mockup.png');
+    background-repeat: no-repeat;
+}

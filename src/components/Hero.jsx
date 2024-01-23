@@ -4,7 +4,7 @@ import Header from './Header'
 const Hero = () => {
   return (
     <>
-        <div className="bg-pattern pt-[40px] pb-[96px] flex-col flex gap-[160px]">
+        <div className="bg-pattern pt-[40px] pb-[96px] flex-col flex gap-[160px] w-full px-[108px] 2xl:px-[160px]">
             <Header />
             <div className=" flex flex-col-reverse lg:flex-row justify-between items-center ">
                 <div className="flex flex-col items-start gap-[32px] w-[780px] h-[472px]">

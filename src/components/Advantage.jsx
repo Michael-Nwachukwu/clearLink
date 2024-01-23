@@ -27,7 +27,7 @@ const Advantage = () => {
 
     return (
         <>
-            <section className='py-[96px]'>
+            <section className='py-[96px] w-full px-[108px] 2xl:px-[160px]'>
                 <div className="flex flex-col items-start gap-[80px]">
                     <div className="flex flex-col items-start gap-[20px]">
                         <p className='text-[#175CD3] text-[18px] font-semibold'>The ClearLink Advantage</p>
