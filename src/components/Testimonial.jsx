@@ -28,10 +28,10 @@ const Testimonial = () => {
                             </div>
                             <div className="flex justify-between gap-8 sm:gap-[32px] ml-auto"> 
                                 <button className="flex items-center justify-center w-[56px] h-[56px] rounded-full border border-[#D1E9FF] bg-[rgba(255, 255, 255, 0.90)]">
-                                    <img src="public/images/arrow-left.svg" alt="" />
+                                    <img src="/images/arrow-left.svg" alt="" />
                                 </button>
                                 <button className="flex items-center justify-center w-[56px] h-[56px] rounded-full border border-[#D1E9FF] bg-[rgba(255, 255, 255, 0.90)]">
-                                    <img src="public/images/arrow-right.svg" alt="" />
+                                    <img src="/images/arrow-right.svg" alt="" />
                                 </button>
                             </div>
                         </div>
