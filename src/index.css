@@ -8,7 +8,7 @@ body{
 }
 
 .bg-pattern{
-    background-image: url('../public/Background-pattern.png');
+    background-image: url('../public/images/Background-pattern.png');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
