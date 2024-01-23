@@ -37,10 +37,10 @@ const Faqs = () => {
 
     return (
         <>
-            <section className='py-[96px] w-full px-[108px] 2xl:px-[160px]'>
-                <div className="grid grid-cols-2 gap-[20px]">
+            <section className='py-14 sm:py-[96px] w-full sm:px-[108px] 2xl:px-[160px]'>
+                <div className="grid sm:grid-cols-2 gap-[20px] px-4">
                     
-                    <div className="flex flex-col items-start w-[547px]">
+                    <div className="flex flex-col items-start sm:w-[547px] gap-5 sm:gap-0">
                         <p className="font-semibold text-[18px] text-[#175CD3] leading-5">
                             Support
                         </p>
@@ -54,9 +54,9 @@ const Faqs = () => {
 
                         {faqsData.map((faq, index) => (
                             <div key={index} className="flex flex-col">
-                                <div className={`flex items-start gap-[24px] justify-between rounded-[16px] ${activeIndex === index ? 'bg-[#F9FAFB] border border-[#EAECF0]' : ''} p-[32px] faqs-body`}>
+                                <div className={`flex items-start gap-[24px] justify-between rounded-[16px] ${activeIndex === index ? 'bg-[#F9FAFB] border border-[#EAECF0]' : ''} py-[32px] px-2 sm:p-[32px] faqs-body`}>
                                     <div className="space-y-4">
-                                        <h4 className='text-[20px] font-semibold leading-8 text-[#101828]' onClick={() => toggleAccordion(index)}>{faq.question}</h4>
+                                        <h4 className='text-md sm:text-[20px] font-semibold leading-8 text-[#101828]' onClick={() => toggleAccordion(index)}>{faq.question}</h4>
                                         <div className={`${activeIndex === index ? '' : 'hidden'} text-[18px] font-normal leading-7 text-[#475467] faqs-answer`}>{faq.answer}</div>
                                     </div>
                                     <img src={`/images/${activeIndex === index ? 'minus-circle' : 'plus-circle'}.svg`} className='pt-1 action-btn' alt="" onClick={() => toggleAccordion(index)} />

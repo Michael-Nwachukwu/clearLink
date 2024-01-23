@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
 }
 
 .bg-pattern{
@@ -26,7 +27,6 @@ body{
 .arrow{
     width: 238.234px;
     height: 200.324px;
-    /* transform: rotate(-154.745deg); */
     position: absolute;
     right: 70%;
     left: 30%;
@@ -37,4 +37,20 @@ body{
 .action-img{
     background-image: url('../public/images/Screen-mockup.png');
     background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 640px) {
+    .bg-pattern {
+        /* background-image: url('../images/Background-pattern-mobile.png'); */
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size:170%;
+    }
+
+    .arrow{
+        right: 55%;
+        left: 45%;
+        top: -190px;
+    }
 }

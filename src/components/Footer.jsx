@@ -4,23 +4,24 @@ const Footer = () => {
   return (
     <>
         <footer className='pt-[96px]'>
-            <div className="pb-12 px-[108px] 2xl:px-[160px]">
+            <div className="pb-12 sm:px-[108px] 2xl:px-[160px]">
 
-                <div className="flex items-start justifybetween gap-[100px]">
-                    <div className="w-[400px]">
-                        <div>
+                <div className="flex flex-col sm:flex-row items-start gap-14 sm:gap-[100px] px-4">
+                    <div className="sm:w-[400px]">
+                        <div className='space-y-5'>
                             <div className="inline-flex items-center">
                                 <img src="/images/group.svg" alt="" />
                                 <p className='text-[#101828] font-semibold text-[24px]'>ClearLink</p>
                             </div>
+
                             <div>
-                                <p className="font-normal leading-7 text-[#475467] text-[18px]">
+                                <p className="font-normal sm:leading-7 text-[#475467] sm:text-[18px]">
                                     ClearLink is your gateway to effortless, high-quality video conferencing. Join us in shaping the future of communication!
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div className="grid grid-cols-5 gap-[32px]">
+                    <div className="grid grid-cols-2 sm:grid-cols-5 gap-[32px]">
                         <div className='space-y-[16px]'>
                             <p className="font-semibol text-[#667085] text-[16px] leading-6">Product</p>
                             <ul className='space-y-[16px]'>
@@ -92,8 +93,8 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className="bg-[#F9FAFB] py-12 px-[108px] 2xl:px-[160px]">
-                <div className="flex justify-between items-center">
+            <div className="bg-[#F9FAFB] py-12 px-4 sm:px-[108px] 2xl:px-[160px]">
+                <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-6 sm:gap-0">
                     <p className="font-normal text-base text-gray-500">© 2023 ClearLink. All rights reserved.</p>
                     <div className="flex gap-6">
                         <img src="/images/linkedin.svg" alt="" />

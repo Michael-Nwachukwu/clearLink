@@ -27,16 +27,20 @@ const Advantage = () => {
 
     return (
         <>
-            <section className='py-[96px] w-full px-[108px] 2xl:px-[160px]'>
-                <div className="flex flex-col items-start gap-[80px]">
-                    <div className="flex flex-col items-start gap-[20px]">
-                        <p className='text-[#175CD3] text-[18px] font-semibold'>The ClearLink Advantage</p>
-                        <h3 style={{ letterSpacing: '-0.96px', lineHeight: '60px' }} className='text-[#1D2939] text-[48px] font-semibold '>Why choose ClearLink?</h3>
-                        <p className='text-[24px] font-normal text-[#667085] w-[842px]'>In a world where connection is everything, ClearLink takes the lead. Our cutting-edge video conferencing app offers:</p>
+            <section className='py-20 sm:py-[96px] w-full sm:px-[108px] 2xl:px-[160px]'>
+                <div className="flex flex-col items-start sm:gap-[80px] p-2 sm:p-0">
+                    <div className="flex flex-col items-start gap-3 sm:gap-[20px]">
+                        <p className='text-[#175CD3] text-sm sm:text-[18px] font-semibold'>The ClearLink Advantage</p>
+                        <h3 className='text-[#1D2939] text-3xl sm:text-[48px] font-semibold sm:leading-[60px] sm:tracking-[-0.96px]'>Why choose ClearLink?</h3>
+                        <p className='text-base sm:text-[24px] font-normal text-[#667085] sm:w-[842px]'>In a world where connection is everything, ClearLink takes the lead. Our cutting-edge video conferencing app offers:</p>
                     </div>
-                    <div className="grid grid-cols-2 place-items-center gap-20">
+                    <div className="grid sm:grid-cols-2 place-items-center gap-10 sm:gap-20">
+                        <div className="relative sm:hidden mt-36">
+                            <img src="/images/people.png" className='' alt="" />
+                            <img src="/images/hand-drawn-arrow.svg" className='arrow' alt="" />
+                        </div>
                         <div className="">
-                            <div className="grid grid-cols-2 gap-x-[40px] gap-y-[60px]">
+                            <div className="grid sm:grid-cols-2 gap-4 sm:gap-x-[40px] sm:gap-y-[60px] px-2 sm:px-0">
 
                                 {advantages.map((point, index) => {
                                     return (
@@ -54,7 +58,7 @@ const Advantage = () => {
 
                             </div>
                         </div>
-                        <div className="relative">
+                        <div className="relative hidden sm:block">
                             <img src="/images/people.png" className='' alt="" />
                             <img src="/images/hand-drawn-arrow.svg" className='arrow' alt="" />
                         </div>

@@ -3,11 +3,11 @@ import React from 'react'
 const Action = () => {
     return (
         <>
-            <section className='pt-[96px]'>
-                <div className="grid grid-cols-2 place-items-center">
-                    <div className="flex flex-col items-start gap-[32px] pl-[108px] 2xl:pl-[160px]">
-                        <h1 className="font-semibold tracking-[-0.96px] leading-[60px] text-[48px] text-[#101828]">Ready to clear the path to perfect communication?</h1>
-                        <div className='pl-[16px] gap-[20px] flex flex-col'>
+            <section className='pt-10 sm:pt-[96px]'>
+                <div className="grid sm:grid-cols-2 place-items-center gap-8 sm:gap-0">
+                    <div className="flex flex-col items-start gap-4 sm:gap-[32px] sm:pl-[108px] 2xl:pl-[160px] px-4 sm:px-0">
+                        <h1 className="font-semibold tracking-[-0.96px] leading-[60px] text-3xl sm:text-[48px] text-[#101828]">Ready to clear the path to perfect communication?</h1>
+                        <div className='sm:pl-[16px] gap-[20px] flex flex-col'>
                             <div className="inline-flex items-center gap-[12px]">
                                 <img src="/images/check-circle.svg" alt="" />
                                 <p className="font-normal text-24px] leading-8 text-[#475467]">30 days free trial</p>
